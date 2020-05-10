@@ -1,0 +1,226 @@
+[{
+    "id" : "1",
+    "cim" : "Bosszúállok",
+    "rendezok" : ["Joss Whedon"],
+    "tortenet" : "Nick Fury (Samuel L. Jackson), az Ügynökség vezetője új fenyegetést észlel. Az ellenfél minden eddiginél nagyobb veszélyt jelent a Földre. Fury a katasztrófa elkerülésére összehívja a szuperhősöket. A toborzás eredményeként hamarosan sohasem látott szupercsapat néz farkasszemet az ellenséggel.",
+    "szereplok" : ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
+    "pontszam" : "9.4",
+    "mufaj" : "akció"
+    },
+  {
+    "id" : "8",
+    "cim" : "V mint vérbosszú",
+    "rendezok" : ["James McTeigue"],
+    "tortenet" : "Anglia diktatúrától szenved a nem is olyan távoli jövőben. A tévéből dől a propaganda, a titkosrendőrség pribékjei mindenkit rettegésben tartanak. Evey-t, a fiatal lányt egyik este elkapják az utcán, a halál torkából egy titokzatos alak, V szabadítja ki. A férfi a négyszáz éve kivégzett lázadó, Guy Fawkes álarcát viseli. Fawkes társaival együtt levegőbe akarta röpíteni a parlamentet, hogy az országot megszabadítsa a zsarnokságtól. De a merénylet meghiúsult, az összeesküvők bitón végezték. Evey apránként megismeri V múltját, mely a férfi bosszúvágyát táplálja. És miközben maga is megjárja a diktatúra börtöneit, rájön, hogy V ugyanarra készül, amire annak idején Fawkes.",
+    "szereplok" : ["Natalie Portman", "Hugo Weaving", "Stephen Rea"],
+    "pontszam" : "8.4",
+    "mufaj" : "akció"
+  },
+
+    {
+      "id" : "2",
+      "cim" : "Sharknado",
+      "rendezok" : ["Anthony C. Ferrante"],
+      "tortenet" : "A napfényes Los Angeles felé soha nem látott tornádók közelednek. A Csendes-óceán vízét felkavaró széltölcsérek cápák ezreit repítik magukkal.",
+      "szereplok" : ["Jaason Simmons", "Ian Ziering", "Tara Reid", "John Heard"],
+      "pontszam" : "2.8",
+      "mufaj" : "akció"
+    },
+    {
+      "id" : "3",
+      "cim" : "Legenda vagyok",
+      "rendezok" : ["Francis Lawrence"],
+      "tortenet" : "Robert Neville (Will Smith) a Földön az egyetlen emberi túlélő, akit nem fertőzött meg a gyilkos vírus. Mára ő New York utolsó lakója, s talán az egész világon nincs már rajta kívül ember. A pusztító járvány következtében azonban új faj jött létre.",
+      "szereplok" : ["Will Smith", "Alice Braga", "Emma Thompson"],
+      "pontszam" : "8.2",
+      "mufaj" : "thriller"
+    },
+    {
+      "id" : "4",
+      "cim" : "Ave Cézár",
+      "rendezok" : ["Ethan Coen", "Joel Coen"],
+      "tortenet" : "Joel és Ethan Coen új vígjátéka Hollywood aranykorába repít minket, és egy nagy stúdió problémamegoldójának egy napját követi nyomon, amikor számos probléma vár megoldásra.",
+      "szereplok" : ["Josh Brolin", "George Clooney", "Ralph Fiennes"],
+      "pontszam" : "5.1",
+      "mufaj" : "vígjáték"
+    },
+  {
+    "id" : "5",
+    "cim" : "Tőrbe ejtve",
+    "rendezok" : ["Rian Johnson"],
+    "tortenet" : "A milliárdos krimiírót 85. születésnapján holtan találják vidéki villájában. A partit követő napon a tett helyszínére érkezik a híres magándetektív, Benoit Blanc (Daniel Craig), akit egy titokzatos személy bérelt fel a szenzációs bűncselekmény felderítésével. Ahogy a nyomozó elkezdi felgöngyölíteni az ügyet, egyre különösebb tiktokra derít fényt. És bár az ünnepségen résztvevő családtagoknak, és a személyzetnek is megdönthetetlen alibije van, mindenkinek alapos indítéka volt a szörnyű tett elkövetésére. A vidéki magányban elszigetelt família minden tagja egyre kétségbeesettebben bizonygatja saját igazát, de Benoit Blanc egy meglepő csellel végül mégis tőrbe csalja a gyilkost.",
+    "szereplok" : ["Ana de Armas", "Chris Evans", "Daniel Craig", "Jamie Lee Curtis", "Michael Shannon", "Toni Collette", "LaKeith Stanfield"],
+    "pontszam" : "8.2",
+    "mufaj" : "krimi"
+  },
+    {
+      "id" : "6",
+      "cim" : "Volt egyszer egy Hollywood",
+      "rendezok" : ["Quentin Tarantino"],
+      "tortenet" : "1969, Los Angeles. Egy munka nélkül maradt, western tévésorozatából kikerült, munkanélküli színész (Leonardo DiCaprio) és jó barátja, kaszkadőre (Brad Pitt) együtt próbálnak boldogulni Hollywood kegyetlen világában.",
+      "szereplok" : ["Margot Robbie", "Leonardo DiCaprio", "Brad Pitt", "Sydney Sweeney", "Timothy Olyphant"],
+      "pontszam" : "6.5",
+      "mufaj" : "dráma"
+    },
+    {
+      "id" : "7",
+      "cim" : "Brian élete",
+      "rendezok" : ["Terry Jones"],
+      "tortenet" : "A Monthy Python csoport tagjai ezúttal visszavisznek minket a bibliai időkbe. Júdeában vagyunk, ott és akkor, amikor Jézus született. Vele szinte egy időben és egészen a közelében megszületik egy másik gyermek is, Brian. Róla a napkeleti bölcsek tévedésből azt hiszik, hogy ő a megváltó. Brian élete ettől a perctől kezdve tévedések és félreértések sorozata. ",
+      "szereplok" : ["Graham Chapman", "Terry Gilliam", "John Cleese", "Eric Idle", "Terry Jones", "Michael Palin"],
+      "pontszam" : "9.8",
+      "mufaj" : "vígjáték"
+    },
+  {
+    "id" : "9",
+    "cim" : "Joker",
+    "rendezok" : ["Todd Phillips"],
+    "tortenet" : "Nem volt még őrültebb, veszélyesebb és viccesebb antihős a képregényvilágban. De hogyan lett Jokerből Joker, a komor Batman örök ellensége és ellentéte? Ez a történet megmutatja, miképpen válhat egy ártatlan lúzerből világok felforgatója, hadseregek legyőzője és szuperhősök méltó ellenfele.\nNem kell hozzá sok – elég a gyilkos humor.",
+    "szereplok" : ["Joaquin Phoenix", "Zazie Beetz", "Robert De Niro", "Brett Cullen", "Brian Tyree Henry"],
+    "pontszam" : "7.9",
+    "mufaj" : "dráma"
+  },
+  {
+    "id" : "10",
+    "cim" : "Fel!",
+    "rendezok" : ["Todd Phillips"],
+    "tortenet" : "Carl Fredricksen mindig is boldog házasságban élt gyermekkori szerelmével, Ellie-vel, egészen az asszony haláláig. Az idős úr felesége elvesztése után is megpróbálja élni a mindennapokat, de már semmi nem a régi, így zsémbes, morgós öregember válik belőle, akinek ráadásul a házát is el akarják venni. Fredricksen úgy gondolja, hogy nem várja meg, amíg idősek otthonába költöztetik, hanem valóra váltja Ellie-vel közösen dédelgetett álmát, és a házával együtt elrepül, irány Dél-Amerika.",
+    "szereplok" : ["Edward Asner", "Jordan Nagai", "Christopher Plummer"],
+    "pontszam" : "8.7",
+    "mufaj" : "animációs"
+  },
+  {
+    "id" : "11",
+    "cim" : "A Ravasz, az Agy és két füstölgő puskacső",
+    "rendezok" : ["Guy Ritchie"],
+    "tortenet" : "London legizgalmasabb negyede valószínűleg az East End. Itt él a legtöbb nehézfiú, kábítószerügynök és nagyreményű semmittevő. A film négy hőse, a négy jó barát itt határozza el, hogy meggazdagodik. Az eredmény: hatalmas adósság és egy életveszélyes fenyegetés. Mindössze egy hetük van fizetni, ezért a legelképesztőbb megoldást választják: kirabolnak egy másik bandát. Újabb kétes elemek, bűnözők, csempészek, kétballábas bérgyilkosok és szigorú kocsmárosok tűnnek fel a színen. Mindenki mindenkit összetéveszt valakivel, leszámol valaki mással, miközben a nagy dohánynak lába kél.",
+    "szereplok" : ["Nick Moran", "Jason Statham", "Jason Flemyng", "Dexter Fletcher", "Vinnie Jones"],
+    "pontszam" : "9.2",
+    "mufaj" : "vígjáték"
+  },
+  {
+    "id" : "12",
+    "cim" : "Harrosok klubja",
+    "rendezok" : ["Guy Ritchie"],
+    "tortenet" : "Amerika nagyvárosainak pincéiben egy titkos szervezet működik: ha egy éjjel az utca összes nyilvános telefonja összetörik, ők jártak ott; ha egy köztéri szobor óriás fémgömbje legurul talapzatáról, és szétrombol egy gyorsétkezdét, az az ő művük; ha egy elegáns bank parkolójának összes autóját rettentően összerondítják a galambok - az sem véletlen. Vigyáznak a leveleinkre, átveszik telefonüzeneteinket, kísérnek az utcán: és még csak készülnek a végső dobásra: a nagy bummra... Pedig az egészet csak két túlzottan unatkozó jóbarát találta ki: azzal kezdték, hogy rájöttek, nincs jobb stresszoldó, mint ha alaposan megverik egymást. Pofonokat adni jó. Pofonokat kapni jó. Számukra ez a boldog élet szabálya.",
+    "szereplok" : ["Edward Norton", "Brad Pitt", "Helena Bonham Carter"],
+    "pontszam" : "9.1",
+    "mufaj" : "dráma"
+  },
+  {
+    "id" : "13",
+    "cim" : "Agymanók",
+    "rendezok" : ["Pete Docter", "Amy Poehler", "Kyle MacLachlan"],
+    "tortenet" : "A tinédzserkor gyakran döcögős és akadályokkal teli. Nincs ez másként a fiatal lány, Riley esetében sem, akinek csendes, kertvárosi élete a feje tetejére áll, amikor édesapja a nyüzsgő San Franciscóban kap munkát. Mint mindannyiunkat, Riley-t is az érzelmei vezérlik - ők Derű, Bánat, Harag, Majré, Undor. Az érzelmek a Riley agyában található Központban laknak, mindennapi munkájuk során pedig azon dolgoznak, hogy a lányt átvezessék a mindennapok kihívásain. Ahogy Riley az érzelmeivel küzdve próbálja megszokni San Franciscót, a Központban kitör a káosz. Bár Derű, Riley elsőszámú és legfontosasbb érzelme megpróbálja a dolgok pozitív oldalát láttatni, összetűzésbe kerül a többi érzelemmel, akik másként vélekednek arról, hogyan kell viselkedni egy új városban, egy új otthonban és egy új iskolában.",
+    "szereplok" : ["Kaitlyn Dias", "Kyle MacLachlan", "Diane Lane", "Mindy Kaling", "Bill Hader"],
+    "pontszam" : "8.4",
+    "mufaj" : "animációs"
+  },
+  {
+    "id" : "14",
+    "cim" : "Eredet",
+    "rendezok" : ["Christopher nolan"],
+    "tortenet" : "A tinédzserkor gyakran döcögős és akadályokkal teli. Nincs ez másként a fiatal lány, Riley esetében sem, akinek csendes, kertvárosi élete a feje tetejére áll, amikor édesapja a nyüzsgő San Franciscóban kap munkát. Mint mindannyiunkat, Riley-t is az érzelmei vezérlik - ők Derű, Bánat, Harag, Majré, Undor. Az érzelmek a Riley agyában található Központban laknak, mindennapi munkájuk során pedig azon dolgoznak, hogy a lányt átvezessék a mindennapok kihívásain. Ahogy Riley az érzelmeivel küzdve próbálja megszokni San Franciscót, a Központban kitör a káosz. Bár Derű, Riley elsőszámú és legfontosasbb érzelme megpróbálja a dolgok pozitív oldalát láttatni, összetűzésbe kerül a többi érzelemmel, akik másként vélekednek arról, hogyan kell viselkedni egy új városban, egy új otthonban és egy új iskolában.",
+    "szereplok" : ["Leonardo DiCaprio", "Ellen Page", "Ken Watanabe", "Joseph Gordon-Levitt", "Marion Cotillard"],
+    "pontszam" : "8.9",
+    "mufaj" : "akció"
+  },
+  {
+    "id" : "15",
+    "cim" : "Élősködők",
+    "rendezok" : ["Bong Joon-ho"],
+    "tortenet" : "A dél-koreai rendezőfenomén, Bong Joon-ho (A gazdatest, Snowpiercer – Túlélők viadala, Okja) tízévnyi nemzetközi kitérő után tért vissza hazájába, hogy ismét kompromisszummentesen dolgozhasson. Ennek eredménye ez a tőle megszokott hangvételű, semmihez sem hasonlítható éjsötét vígjáték, az Élősködők.",
+    "szereplok" : ["Kang-ho Song", "Sun-kyun Lee", "Yeo-jeong Jo", "Woo-sik Choi"],
+    "pontszam" : "7.6",
+    "mufaj" : "dráma"
+  },
+  {
+    "id" : "16",
+    "cim" : "ParaNorman",
+    "rendezok" : ["Sam Fell", "Chris Butler"],
+    "tortenet" : "Kihez forduljon egy kisváros, hogyha ostrom alá veszik a zombik? Ki máshoz, mint a félreértett, kiközösített, furcsa kissráchoz, Normanhez, aki képes beszélni a halottakkal? A zombikon kívül Normannek fel kell vennie a harcot a szellemekkel, a boszorkányokkal, és, ami a legrosszabb, az idióta felnőttekkel is, hogy megmentse városát az évszázados átoktól. Tehát most ennek a szellemekkel suttogó fiúnak latba kell vetnie minden paranormális képességét, ami kísértetiesen komoly szellemi munka.",
+    "szereplok" : ["Kodi Smit-McPhee", "Anna Kendrick", "Leslie Mann"],
+    "pontszam" : "6.4",
+    "mufaj" : "animációs"
+  },
+  {
+    "id" : "17",
+    "cim" : "A láthatatlan ember",
+    "rendezok" : ["Leigh Whannell"],
+    "tortenet" : "Amit nem látsz, az nem árthat neked.\nAz Emmy-díjas Elisabeth Moss (Mi, A szolgálólány meséje) a főszereplője ennek a félelmetes modern mesének, melyet a Universal klasszikus szörnykaraktere ihletett.\nCecilia Kass egy erőszakos kapcsolat csapdájában vergődik egy gazdag és briliáns tudóssal, de egyszer csak úgy dönt, hogy megszökik éjnek évadján, és elrejtőzik. Tervében segítségére van a nővére, egy gyerekkori barát és annak tinédzser lánya.\nÁm amikor Cecilia erőszakos exe öngyilkosságot követ el, és hatalmas vagyonának egy jelentős részét feleségére hagyja, Cecilia arra gyanakszik, hogy élettársa halála csak színjáték volt. Amikor a hátborzongató események sora halálos fordulatot vesz, és szerettei életét veszélyezteti, Cecilia elméje kezd megbomlani, miközben kétségbeesetten próbálja bizonyítani, hogy kísérti őt valaki, akit senki sem lát...\nA LÁTHATATLAN EMBER producere a horror műfaj kortárs mestere, Jason Blum, az író, rendező; executive producer pedig Leigh Whannel, aki a Fűrész sorozat egyik ötletgazdája, legutóbb pedig olyan filmeket rendezett, mint az Upgrade – Javított verzió és az Insidious: A gonosz lélek.",
+    "szereplok" : ["Elisabeth Moss", "Oliver Jackson-Cohen", "Aldis Hodge"],
+    "pontszam" : "7.2",
+    "mufaj" : "thriller"
+  },
+  {
+    "id" : "18",
+    "cim" : "Star Wars: Az ébredő Erő",
+    "rendezok" : ["J.J. Abrams"],
+    "tortenet" : "A Csillagok háborúja VI: A jedi visszatér cselekménye után 30 évvel járunk (YU 34), az Új Köztársaság idejében. Az Első Rend jelent meg és háborúzott a Galaktikus Birodalom maradványaival, melynek vezetője Supreme Leader Snoke és tanítványa, Kylo Ren, aki sajátos fénykardjával a Galaxis egy részét elfoglalta a (Hux tábornokkal) Starkiller bázisról vezetve seregét.",
+    "szereplok" : ["Daisy Ridley", "John Boyega", "Harrison Ford", "Mark Hamill", "Carrie Fisher", "Peter Mayhew"],
+    "pontszam" : "6.6",
+    "mufaj" : "akció"
+  },
+  {
+    "id" : "19",
+    "cim" : "Harry Potter és a félvér herceg",
+    "rendezok" : ["David Yates"],
+    "tortenet" : "Roxfort körül egyre szaporodnak az árnyak. Pedig a hatodik osztályba lépő Harry Potter és barátai számára a Boszorkány- és Varázslóképző Szakiskola mindennapjai is bőven elég izgalmat jelentenek nekik: Harry különleges titkokat hordozó bájital tankönyve, Ron barátnője és Hermione szerelme is épp elég titokzatos és ijesztő. De Harrynek egyre több oka van a félelemre. A halálfalók már mindenütt ott vannak, a dementortámadások szaporodnak, és az iskola fölött megjelenik a Sötét Jegy. Dumbledore abban reménykedik, hogy védence megerősödhet, ha jobban megismeri a múltját. De van veszély, amelyre ő sem készülhet fel.",
+    "szereplok" : ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Jim Broadbent"],
+    "pontszam" : "7.8",
+    "mufaj" : "kaland"
+  },
+  {
+    "id" : "20",
+    "cim" : "A Karib-tenger kalózai - A Fekete Gyöngy átka",
+    "rendezok" : ["Gore Verbinski"],
+    "tortenet" : "A XVII. században a Karib-tenger a kalózok birodalma volt, akik megfélemlítették az angol királyi flottát is. Elizabeth Swannt (Keira Knightley), az angol kormányzó lányát elrabolja a rettegett kalóz, Barbossa kapitány (Geoffrey Rush). A lány gyerekkori barátja és szerelme, Will Turner (Orlando Bloom) a lány megmentésére indul, és akarva-akaratlanul a kalózok segítségét kell kérnie. Jack Sparrow (Johnny Depp), a kalózok vezére felfedi Barbossa és társai titkát. Will és Jack megkísérlik a lehetetlent: megszerezni a Fekete Gyöngyöt, kimenteni a lányt és mellesleg megszerezni a világ legdrágább kincsét.",
+    "szereplok" : ["Johnny Depp", "Keira Knightley", "Orlando Bloom"],
+    "pontszam" : "9.1",
+    "mufaj" : "kaland"
+  },
+  {
+    "id" : "21",
+    "cim" : "Bosszúállók: Végtelen háború",
+    "rendezok" : ["Joe Russo", "Anthony Russo"],
+    "tortenet" : "A Marvel mozis univerzumának egészét felölelő, tíz év eseményeinek tetőpontját jelentő Bosszúállók: Végtelen háborúban minden idők legnagyobb és leghalálosabb leszámolására kerül sor. A Bosszúállóknak és szövetségeseiknek mindent kockára kell tenniük, hogy megfékezzék a nagy erejű Thanost, aki egy szemvillanás alatt elpusztíthatja a világot.",
+    "szereplok" : ["Scarlett Johansson", "Benedict Cumberbatch", "Chris Pratt", "Elizabeth Olsen", "Vin Diesel", "Zoe Saldana", "Chris Hemsworth", "Chris Evans", "Robert Downey Jr."],
+    "pontszam" : "7.8",
+    "mufaj" : "akció"
+  },
+  {
+    "id" : "22",
+    "cim" : "Doctor Strange",
+    "rendezok" : ["Scott Derrickson"],
+    "tortenet" : "A világhírű idegsebész, Dr. Stephen Strange élete tragikus fordulatot vesz egy szörnyű autóbaleset következtében. Miután a kezeit attól kezdve használni képtelen orvosnak a hagyományos gyógymódok nem használnak, valószínűtlen helyen talál segítséget - egy titokzatos himalájai enklávé, a Kamar-Taj az utolsó reménye.\nStrange hamarosan rádöbben, ez a hely nem pusztán a gyógyításé, hanem a hadviselésé is: láthatatlan, sötét erőket kell visszaverniük, melyek világunk elpusztítására törekszenek. A doktor rövidesen válaszút elé kerül: visszatér régi, vagyonnal és népszerűséggel járó életéhez, vagy hátat fordít múltjának és újonnan szerzett mágikus képességeit latba vetve a világ szolgálatába áll a valaha volt legerősebb mágusként.",
+    "szereplok" : ["Benedict Cumberbatch", "Tilda Swinton", "Rachel McAdams"],
+    "pontszam" : "7.7",
+    "mufaj" : "akció"
+  },
+  {
+    "id" : "23",
+    "cim" : "Liza, a rókatündér",
+    "rendezok" : ["Ujj Mészáros Károly"],
+    "tortenet" : "Liza, a csinos, ám szerény ápolónő tizenkét éve gondoskodik a japán nagykövet özvegyéről. Egyhangú élete megváltozik, amikor születésnapi kimenőt kap. Elhatározza, hogy megtalálja élete szerelmét, ám a dolgok rendre balul sülnek el. Liza a japán slágerénekes, Tomy Tani szellemének segítségével arra a következtetésre jut, hogy ő a japán mesék elátkozott rókatündére. Miközben Liza megpróbálja legyőzni az átkot és megtalálni az igazit, a zsaruk, különösen Zoltán Zászlós érdeklődését is felkelti.",
+    "szereplok" : ["Balsai Móni", "David Sakurai"],
+    "pontszam" : "7.8",
+    "mufaj" : "vígjáték"
+  },
+  {
+    "id" : "24",
+    "cim" : "Az elveszett frigyláda fosztogatói",
+    "rendezok" : ["Steven Spielberg"],
+    "tortenet" : "Indiana Jones régész, professzor és kalandor egy személyben, aki semmilyen veszélytől sem riad vissza, hogy megszerezzen egy műkincset. 1936-ban híre jön, hogy a németek hatalmas ásatásokba kezdtek Egyiptomban. A Biblia legendás ereklyéjét, a frigyládát keresik, amiben Mózes kőtáblái találhatók a tízparancsolattal. A mítosz szerint ugyanis legyőzhetetlenné válik, aki a ládát birtokolja. Az amerikai titkosszolgálat megbízza Indiana Jones-t, hogy előzze meg a nácikat. A kalandvágyó professzor Egyiptomba utazik, ahol elkeseredett harc bontakozik ki a frigyládáért.",
+    "szereplok" : ["Harrison Ford", "Paul Freeman", "Karen Allen"],
+    "pontszam" : "9.3",
+    "mufaj" : "kaland"
+  },
+  {
+    "id" : "25",
+    "cim" : "Indiana Jones és az utolsó kereszteslovag",
+    "rendezok" : ["Steven Spielberg"],
+    "tortenet" : "Indiana Jones régész, professzor és kalandor egy személyben, aki semmilyen veszélytől sem riad vissza, hogy megszerezzen egy műkincset. 1936-ban híre jön, hogy a németek hatalmas ásatásokba kezdtek Egyiptomban. A Biblia legendás ereklyéjét, a frigyládát keresik, amiben Mózes kőtáblái találhatók a tízparancsolattal. A mítosz szerint ugyanis legyőzhetetlenné válik, aki a ládát birtokolja. Az amerikai titkosszolgálat megbízza Indiana Jones-t, hogy előzze meg a nácikat. A kalandvágyó professzor Egyiptomba utazik, ahol elkeseredett harc bontakozik ki a frigyládáért.",
+    "szereplok" : ["Harrison Ford", "Sir Sean Connery", "Denholm Elliott", "Alison Doody"],
+    "pontszam" : "9.2",
+    "mufaj" : "kaland"
+  }]

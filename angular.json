@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "movieComparator": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "movieComparator"
+    }
+  },
+  "defaultProject": "movieComparator",
+  "cli": {
+    "analytics": "7b530b00-209c-4610-b228-ed1a9a198740"
+  }
 }
