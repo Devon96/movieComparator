@@ -223,4 +223,31 @@
     "szereplok" : ["Harrison Ford", "Sir Sean Connery", "Denholm Elliott", "Alison Doody"],
     "pontszam" : "9.2",
     "mufaj" : "kaland"
+  },
+  {
+    "id" : "26",
+    "cim" : "Hős6os",
+    "rendezok" : ["Don Hall", "Chris Williams"],
+    "tortenet" : "A Hős6os-ban minden megvan, amit a nézők elvárnak a Walt Disney Animation Studios nevével fémjelzett kedves és humoros animációs alkotástól. Az akciódús kaland a robotok építésével foglalkozó, zseniális Hiro Hamada körül forog, aki barátai segítségével megtanulja kiaknázni brilláns agyának minden egyes tekervényét. Ebben segítségére van testvére, a szintén lángész Tadashi, az adrenalintól csöpögő kalandok megszállottja Go Go Tamago, a mindig rendkívül precíz Wasabi No-Ginger, a kémiazseni Honey Lemon és Fred, a rajongó. ",
+    "szereplok" : ["Ryan Potter", "Daniel Henney", "Jamie Chung", "Damon Wayans Jr.", "Genesis Rodriguez"],
+    "pontszam" : "8.2",
+    "mufaj" : "animációs"
+  },
+  {
+    "id" : "27",
+    "cim" : "Csúcshatás",
+    "rendezok" : ["Neil Burger"],
+    "tortenet" : "Bradley Cooper és Robert De Niro a főszereplői a Csúcshatás című lebilincselő akcióthrillernek, amelyben egy sikertelen író életét fenekestül felforgatja egy szupertitkos \"intelligens gyógyszer\". Segítségével teljes agykapacitását kihasználja, és önmaga tökéletes verziójává válik. Rendkívüli képességeire azonban olyanok is felfigyelnek, akiket kétes szándékok vezérelnek, és hamarosan a túlélése a tét ebben az izgalmas és provokatív filmben.",
+    "szereplok" : ["Bradley Cooper", "Abbie Cornish", "Robert De Niro", "Andrew Howard", "Anna Friel"],
+    "pontszam" : "8.4",
+    "mufaj" : "thriller"
+  },
+  {
+    "id" : "28",
+    "cim" : "Aladdin",
+    "rendezok" : ["Guy Ritchie"],
+    "tortenet" : "Izgalmas történet a megnyerő utcai suhancról, Aladdinról és a bátor és szabad akaratú Jázmin hercegnőről, akik közös jövőjének kulcsa egy Dzsinn lehet.\nA Disney 1992-es animációs klasszikusa alapján készült filmben Guy Ritchie rendező a rá jellemző szélsebes, sajátos látványú akcióval tölti meg Agrabah kitalált városát.",
+    "szereplok" : ["Will Smith", "Naomi Scott", "Mena Massoud"],
+    "pontszam" : "7.8",
+    "mufaj" : "kaland"
   }]
