@@ -1,52 +1,51 @@
 
-<h1>Az összehasonlítandó filmek:</h1>
 
 <div id="maindiv">
   <div>
-    <div class="film" [style.background-color]="film1.pontszam > film2.pontszam ? 'rgba(0, 255, 0, 0.1)' : ''" >
+    <div class="film" [style.background-color]="film1.imdbRating > film2.imdbRating ? 'rgba(0, 255, 0, 0.1)' : ''" >
       <div class="belsofilm">
-        <div class="cim"><h2>{{ film1.cim }}</h2></div>
-        <img src="../../assets/images/boritokep/{{ film1.id }}.jpg"/>
+        <div class="cim"><h2>{{ film1.Title }}</h2></div>
+        <img [src]="film1.Poster"/>
         <div class="rendezo">
           <h3>Rendező</h3>
-          <h4 *ngFor="let rendezo of film1.rendezok" >{{ rendezo }}</h4>
+          <h4> {{ film1.Director }} </h4>
         </div>
         <div class="szinesz">
           <h3>Színészek</h3>
-          <h4 *ngFor="let szinesz of film1.szereplok" >{{ szinesz }}</h4>
+          <h4>{{ film1.Actors }}</h4>
         </div>
         <div class="leiras">
           <h3>Leírás</h3>
           <p>
-            {{ film1.tortenet }}
+            {{ film1.Plot }}
           </p>
         </div>
         <div class="ertekeles">
-          <h2>{{ film1.pontszam }}</h2>
+          <h2>{{ film1.imdbRating }}</h2>
         </div>
       </div>
     </div>
 
-    <div class="film"  [style.background-color]="film1.pontszam < film2.pontszam ? 'rgba(0, 255, 0, 0.1)' : ''" >
+    <div class="film"  [style.background-color]="film1.imdbRating < film2.imdbRating ? 'rgba(0, 255, 0, 0.1)' : ''" >
       <div class="belsofilm">
-        <div class="cim"><h2>{{ film2.cim }}</h2></div>
-        <img src="../../assets/images/boritokep/{{ film2.id }}.jpg"/>
+        <div class="cim"><h2>{{ film2.Title }}</h2></div>
+        <img [src]="film2.Poster"/>
         <div class="rendezo">
           <h3>Rendező</h3>
-          <h4 *ngFor="let rendezo of film2.rendezok" >{{ rendezo }}</h4>
+          <h4>{{ film2.Director }}</h4>
         </div>
         <div class="szinesz">
           <h3>Színészek</h3>
-          <h4 *ngFor="let szinesz of film2.szereplok" >{{ szinesz }}</h4>
+          <h4>{{ film2.Actors }}</h4>
         </div>
         <div class="leiras">
           <h3>Leírás</h3>
           <p>
-            {{ film2.tortenet }}
+            {{ film2.Plot }}
           </p>
         </div>
         <div class="ertekeles">
-          <h2>{{ film2.pontszam }}</h2>
+          <h2>{{ film2.imdbRating }}</h2>
         </div>
       </div>
     </div>

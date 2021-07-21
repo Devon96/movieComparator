@@ -1,18 +1,19 @@
 
-<h1>Az oldalon szereplő filmek:</h1>
-
 
 <div id="maindiv">
-  <input type="text" [(ngModel)]="keresesmezo" placeholder="Keresés filmcím alapján" />
+
+  <input type="text" [(ngModel)]="search" (keyup)="searchMovies()" placeholder="Keresés filmcím alapján" />
   <div>
     <div id="kategoria">
-    <h2 *ngIf="film1 !== undefined">Műfaj: {{ film1.mufaj }}</h2>
+    <h2 *ngIf="film1 !== null" >Kiválasztva: {{ film1.Title }} ({{ film1.Year }})</h2>
     </div>
     <ng-container *ngFor="let film of filmek">
-        <div *ngIf="film.cim.toUpperCase().includes(keresesmezo.toUpperCase()) && (film1 === undefined || film.mufaj === film1.mufaj)" [ngStyle]="{'opacity': film === film1 || film === film2 ? '0.4' : '1'}" (click)="kivalaszt(film.id)" class="elem">
-          <img src="../assets/images/boritokep/{{ film.id }}.jpg" title="{{ film.cim }}"/>
-          <div class="cim">{{ film.cim }}</div>
-        </div>
+
+      <div (click)="kivalaszt(film.imdbID)" class="elem">
+        <img [class.kijelolt] = "film1 !== null && film.imdbID === film1.imdbID" [src]="film.Poster !== 'N/A' ? film.Poster : '../assets/images/placeholder.jpg'" title="{{ film.Title }}"/>
+        <div class="cim">{{ film.Title }}</div>
+      </div>
+
     </ng-container>
 
   </div>

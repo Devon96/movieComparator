@@ -1,6 +1,7 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {FilmekService} from '../filmek.service';
-import {Film} from '../film.model';
+import {MovieDetails} from '../movie.model';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'app-osszehasonlit',
@@ -8,20 +9,20 @@ import {Film} from '../film.model';
   styleUrls: ['./osszehasonlit.component.css']
 })
 export class OsszehasonlitComponent implements OnInit {
-  public film1: Film;
-  public film2: Film;
+  film1: MovieDetails;
+  film2: MovieDetails;
 
-  constructor(private filmekService: FilmekService) { }
+
+  constructor(private filmekService: FilmekService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.film1 = this.filmekService.film1;
-    this.film2 = this.filmekService.film2;
-    if ( this.film1 !== undefined){
-      localStorage.setItem('film1', JSON.stringify(this.film1));
-      localStorage.setItem('film2', JSON.stringify(this.film2));
-    } else {
-      this.film1 = JSON.parse(localStorage.getItem('film1'));
-      this.film2 = JSON.parse(localStorage.getItem('film2'));
-    }
+    this.route.queryParams.subscribe(params => {
+      this.filmekService.getMovie(params.m1).subscribe(data => {
+        this.film1 = data;
+      });
+      this.filmekService.getMovie(params.m2).subscribe(data => {
+        this.film2 = data;
+      });
+    });
   }
 }

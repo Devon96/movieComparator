@@ -1,4 +1,7 @@
-
+h1{
+  padding: 150px 20px;
+  color: white;
+}
 br.clear{
   clear:both;
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Film} from '../film.model';
 import {FilmekService} from '../filmek.service';
-import {Router} from '@angular/router';
+import {RouterModule, Router} from '@angular/router';
+import {Movie, MovieDetails} from '../movie.model';
 
 @Component({
   selector: 'app-filmek',
@@ -9,45 +9,43 @@ import {Router} from '@angular/router';
   styleUrls: ['./filmek.component.css']
 })
 export class FilmekComponent implements OnInit {
-  film1: Film;
-  film2: Film;
-  filmek: Film[];
-  keresesmezo: string;
+  film1: Movie;
+  film2: Movie;
+  filmek: Movie[];
+  search = '';
+  pageNumber = 1;
 
-  constructor(private filmekService: FilmekService, private router: Router) {
-
-  }
+  constructor(private filmekService: FilmekService, private router: Router) { }
 
   ngOnInit(): void {
-    this.keresesmezo = '';
-    this.filmekService.getFilmek().subscribe(data => {
-      this.filmek = data;
+    this.filmekService.getStartMovies().subscribe(data => {
+      this.filmek = data.Search;
     });
+    this.film1 = null;
+    this.film2 = null;
   }
 
+  kivalaszt(id: string) {
 
-  kivalaszt(id: number) {
-    if (this.film1 === undefined) {
-      for (const film of this.filmek) {
-        if (film.id === id) {
-          this.film1 = film;
-        }
-      }
+    if (this.film1 === null) {
+      this.film1 = this.filmek.find( i => i.imdbID === id );
+    } else if (id === this.film1.imdbID) {
+      this.film1 = null;
     } else {
-      for (const film of this.filmek) {
-        if (film.id === id) {
-          this.film2 = film;
-          if (this.film1.id === this.film2.id) {
-            this.film1 = undefined;
-            this.film2 = undefined;
-            return;
-          }
-          this.filmekService.film1 = this.film1;
-          this.filmekService.film2 = this.film2;
-          this.router.navigate(['/hasonlit']);
-        }
-      }
+      this.router.navigate(['/hasonlit'], {queryParams: { m1: this.film1.imdbID,  m2: id}});
+    }
+
+  }
+
+  searchMovies(): void {
+    if (this.search.length > 0) {
+      this.filmekService.getMovies(this.search, 1).subscribe(data => {
+        this.filmek = data.Search;
+      });
+    } else if (this.search.length === 0) {
+      this.filmekService.getStartMovies().subscribe(data => {
+        this.filmek = data.Search;
+      });
     }
   }
-
 }
