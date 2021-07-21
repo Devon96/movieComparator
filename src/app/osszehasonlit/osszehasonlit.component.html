@@ -2,50 +2,50 @@
 
 <div id="maindiv">
   <div>
-    <div class="film" [style.background-color]="film1.imdbRating > film2.imdbRating ? 'rgba(0, 255, 0, 0.1)' : ''" >
+    <div [ngClass]="(film1?.imdbRating) > (film2?.imdbRating) ? 'film winner' : 'film'" >
       <div class="belsofilm">
-        <div class="cim"><h2>{{ film1.Title }}</h2></div>
-        <img [src]="film1.Poster"/>
+        <div class="cim"><h2>{{ film1?.Title }}</h2></div>
+        <img [src]="film1?.Poster !== 'N/A' ? film1?.Poster : '../assets/images/placeholder.jpg'"/>
         <div class="rendezo">
           <h3>Rendező</h3>
-          <h4> {{ film1.Director }} </h4>
+          <h4> {{ film1?.Director }} </h4>
         </div>
         <div class="szinesz">
           <h3>Színészek</h3>
-          <h4>{{ film1.Actors }}</h4>
+          <h4>{{ film1?.Actors }}</h4>
         </div>
         <div class="leiras">
           <h3>Leírás</h3>
           <p>
-            {{ film1.Plot }}
+            {{ film1?.Plot }}
           </p>
         </div>
         <div class="ertekeles">
-          <h2>{{ film1.imdbRating }}</h2>
+          <h2>{{ film1?.imdbRating | number }}</h2>
         </div>
       </div>
     </div>
 
-    <div class="film"  [style.background-color]="film1.imdbRating < film2.imdbRating ? 'rgba(0, 255, 0, 0.1)' : ''" >
+    <div class="film" [ngClass]="(film1?.imdbRating) < (film2?.imdbRating) ? 'film winner' : 'film'" >
       <div class="belsofilm">
-        <div class="cim"><h2>{{ film2.Title }}</h2></div>
-        <img [src]="film2.Poster"/>
+        <div class="cim"><h2>{{ film2?.Title }}</h2></div>
+        <img [src]="film2?.Poster !== 'N/A' ? film2?.Poster : '../assets/images/placeholder.jpg'"/>
         <div class="rendezo">
           <h3>Rendező</h3>
-          <h4>{{ film2.Director }}</h4>
+          <h4>{{ film2?.Director }}</h4>
         </div>
         <div class="szinesz">
           <h3>Színészek</h3>
-          <h4>{{ film2.Actors }}</h4>
+          <h4>{{ film2?.Actors }}</h4>
         </div>
         <div class="leiras">
           <h3>Leírás</h3>
           <p>
-            {{ film2.Plot }}
+            {{ film2?.Plot }}
           </p>
         </div>
         <div class="ertekeles">
-          <h2>{{ film2.imdbRating }}</h2>
+          <h2>{{ film2?.imdbRating }}</h2>
         </div>
       </div>
     </div>

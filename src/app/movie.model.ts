@@ -34,7 +34,7 @@ export interface MovieDetails {
   Poster: string;
   Ratings: Rating[];
   Metascore: string;
-  imdbRating: number;
+  imdbRating?: number;
   imdbVotes: string;
   imdbID: string;
   Type: string;
