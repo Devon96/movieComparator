@@ -1,66 +1,19 @@
-h1{
-  color: #ff0000;
-  margin: 20px auto;
-  font-size: 50px;
-  font-family: Calibri;
-  text-align: center;
+section{
+  margin: 20px 0 20px 0;
 }
-div.elem{
-  float: left;
-  font-size: 20px;
-  font-weight: bold;
-  width: 200px;
-  position: relative;
-  margin: 10px;
+.item{
+  background-color: #000000;
+  margin-bottom: 30px;
   cursor: pointer;
 }
-br.clear{
-  clear:both;
-  padding-bottom: 250px;
-}
-div#maindiv{
-  padding: 150px 80px;
-  margin: 10px auto;
-}
-div.cim{
-  z-index: 1;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  background: rgba(170,170,170,0.7);
-
-}
-img {
-  transition: transform .12s;
-  width: 200px;
-  height: 300px;
-}
-img:hover {
-  transform: scale(1.05);
+.card-body{
+  background-color: #aaaaaa;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 .kijelolt{
   opacity: 0.3;
 }
-input{
-  margin: 0 0 50px 0;
-  width: 1320px;
-  height: 40px;
-  font-size: 30px;
-}
-#kategoria{
-  height: 50px;
-  margin: 0 20px;
-}
-h2{
-  margin: 0;
-  color: #aaaaaa;
-}
-
-a:visited, a:hover, a:active, a:focus {
-  color: black !important;
-  text-decoration: none !important;
-  outline: none !important;
+.item:hover{
+  transform: scale(1.05);
 }

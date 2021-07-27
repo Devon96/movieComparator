@@ -1,9 +1,3 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: tohoma, verdana, arial;
-  font-size: 12px;
-  background-repeat:no-repeat;
-  background-color: #000;
-  background-position: top;
+body{
+  background-color: black;
 }

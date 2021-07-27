@@ -1,21 +1,29 @@
 
-
-<div id="maindiv">
-
-  <input type="text" [(ngModel)]="search" (keyup)="searchMovies()" placeholder="Keresés filmcím alapján" />
-  <div>
-    <div id="kategoria">
-    <h2 *ngIf="film1 !== null" >Kiválasztva: {{ film1.Title }} ({{ film1.Year }})</h2>
+  <section>
+    <div class="row">
+      <div class="form-group">
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="search" (keyup)="searchMovies()" placeholder="Keresés filmcím alapján">
+      </div>
     </div>
-    <ng-container *ngFor="let film of filmek">
+  </section>
 
-      <div (click)="kivalaszt(film.imdbID)" class="elem">
-        <img [class.kijelolt] = "film1 !== null && film.imdbID === film1.imdbID" [src]="film.Poster !== 'N/A' ? film.Poster : '../assets/images/placeholder.jpg'" title="{{ film.Title }}"/>
-        <div class="cim">{{ film.Title }}</div>
+  <section>
+    <div class="row">
+      <div id="kategoria" class="col-12">
+        <h2 *ngIf="film1 !== null" >Kiválasztva: {{ film1.Title }} ({{ film1.Year }})</h2>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="row">
+
+      <div *ngFor="let film of filmek" (click)="kivalaszt(film.imdbID)" class="card item col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2" [class.kijelolt] = "film1 !== null && film.imdbID === film1.imdbID">
+        <img title="{{ film.Title }}" [src]="film.Poster !== 'N/A' ? film.Poster : '../assets/images/placeholder.jpg'" class="card-img-top" alt="{{ film.Title }}">
+        <div class="card-body">
+          <p class="card-text">{{ film.Title }}</p>
+        </div>
       </div>
 
-    </ng-container>
-
-  </div>
-  <br class="clear"/>
-</div>
+    </div>
+  </section>

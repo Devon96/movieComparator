@@ -1,54 +1,45 @@
 
 
-<div id="maindiv">
-  <div>
-    <div [ngClass]="(film1?.imdbRating) > (film2?.imdbRating) ? 'film winner' : 'film'" >
-      <div class="belsofilm">
-        <div class="cim"><h2>{{ film1?.Title }}</h2></div>
-        <img [src]="film1?.Poster !== 'N/A' ? film1?.Poster : '../assets/images/placeholder.jpg'"/>
-        <div class="rendezo">
-          <h3>Rendező</h3>
-          <h4> {{ film1?.Director }} </h4>
-        </div>
-        <div class="szinesz">
-          <h3>Színészek</h3>
-          <h4>{{ film1?.Actors }}</h4>
-        </div>
-        <div class="leiras">
-          <h3>Leírás</h3>
-          <p>
-            {{ film1?.Plot }}
-          </p>
-        </div>
-        <div class="ertekeles">
-          <h2>{{ film1?.imdbRating | number }}</h2>
+<section>
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <div [class.better]="film1?.imdbRating > film2?.imdbRating" class="card mb-3 movie">
+        <img [src]="film1?.Poster !== 'N/A' ? film1?.Poster : '../assets/images/placeholder.jpg'" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title title">{{ film1?.Title }}</h5>
+          <p class="card-text">{{ film1?.Plot }}</p>
+
+          <ul class="list-group list-group-flush movie-data">
+            <li class="list-group-item">Rendező: {{ film1?.Director }}</li>
+            <li class="list-group-item">Színészek: {{ film1?.Actors }}</li>
+          </ul>
+
+          <h4 class="rating-text">Értékelés:</h4>
+          <div class="rating">{{ film1?.imdbRating | number }}</div>
+
         </div>
       </div>
     </div>
 
-    <div class="film" [ngClass]="(film1?.imdbRating) < (film2?.imdbRating) ? 'film winner' : 'film'" >
-      <div class="belsofilm">
-        <div class="cim"><h2>{{ film2?.Title }}</h2></div>
-        <img [src]="film2?.Poster !== 'N/A' ? film2?.Poster : '../assets/images/placeholder.jpg'"/>
-        <div class="rendezo">
-          <h3>Rendező</h3>
-          <h4>{{ film2?.Director }}</h4>
-        </div>
-        <div class="szinesz">
-          <h3>Színészek</h3>
-          <h4>{{ film2?.Actors }}</h4>
-        </div>
-        <div class="leiras">
-          <h3>Leírás</h3>
-          <p>
-            {{ film2?.Plot }}
-          </p>
-        </div>
-        <div class="ertekeles">
-          <h2>{{ film2?.imdbRating }}</h2>
+    <div class="col-12 col-md-6">
+      <div [class.better]="film2?.imdbRating > film1?.imdbRating" class="card mb-3 movie">
+        <img [src]="film2?.Poster !== 'N/A' ? film2?.Poster : '../assets/images/placeholder.jpg'" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title title">{{ film2?.Title }}</h5>
+          <p class="card-text">{{ film2?.Plot }}</p>
+
+          <ul class="list-group list-group-flush movie-data">
+            <li class="list-group-item">Rendező: {{ film2?.Director }}</li>
+            <li class="list-group-item">Színészek: {{ film2?.Actors }}</li>
+          </ul>
+
+          <h4 class="rating-text">Értékelés:</h4>
+          <div class="rating">{{ film2?.imdbRating | number }}</div>
+
         </div>
       </div>
     </div>
+
   </div>
-  <br class="clear"/>
-</div>
+
+</section>

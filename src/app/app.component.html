@@ -1,10 +1,17 @@
 
-<header>
-  <a routerLink="/"><img src="../assets/images/index.png" id="index" alt="Film összehasonlító"/></a>
+<header class="container-fluid">
+
+  <nav class="navbar navbar-light">
+    <a routerLink="/" class="navbar-brand" href="#">
+      <img src="../assets/images/index.png" height="50" alt="">
+    </a>
+  </nav>
 </header>
 <main>
   <section>
-    <router-outlet></router-outlet>
+    <div class="container-lg">
+      <router-outlet></router-outlet>
+    </div>
   </section>
 </main>
 
