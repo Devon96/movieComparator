@@ -1,7 +1,7 @@
 
   <section>
     <!--value: {{form.value | json}}-->
-    <form [formGroup]="form" >
+    <form [formGroup]="form">
 
       <div class="row form-group input-group-lg">
 
@@ -24,7 +24,8 @@
   <section>
     <div class="row">
       <div id="kategoria" class="col-12">
-        <h2 *ngIf="film1 !== null" >Kiválasztva: {{ film1.Title }} ({{ film1.Year }})</h2>
+        <h2 class="selected" *ngIf="film1 !== null" >Kiválasztva: {{ film1.Title }} ({{ film1.Year }})</h2>
+        <h2 class="selected" *ngIf="filmek === undefined" >Nem található film/sorozat vagy nem jó a keresés</h2>
       </div>
     </div>
   </section>

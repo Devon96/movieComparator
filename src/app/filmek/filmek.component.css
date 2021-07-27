@@ -20,3 +20,6 @@ section{
 .movie-form{
   margin-bottom: 30px;
 }
+h2.selected{
+  color: #aaaaaa;
+}

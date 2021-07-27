@@ -7,11 +7,11 @@
         <img [src]="film1?.Poster !== 'N/A' ? film1?.Poster : '../assets/images/placeholder.jpg'" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title title">{{ film1?.Title }}</h5>
-          <p class="card-text">{{ film1?.Plot }}</p>
+          <p *ngIf="film1?.Plot !== 'N/A'" class="card-text">{{ film1?.Plot }}</p>
 
           <ul class="list-group list-group-flush movie-data">
-            <li class="list-group-item">Rendező: {{ film1?.Director }}</li>
-            <li class="list-group-item">Színészek: {{ film1?.Actors }}</li>
+            <li *ngIf="film1?.Director !== 'N/A'" class="list-group-item">Rendező: {{ film1?.Director }}</li>
+            <li *ngIf="film1?.Actors !== 'N/A'" class="list-group-item">Színészek: {{ film1?.Actors }}</li>
           </ul>
 
           <h4 class="rating-text">Értékelés:</h4>
@@ -26,11 +26,11 @@
         <img [src]="film2?.Poster !== 'N/A' ? film2?.Poster : '../assets/images/placeholder.jpg'" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title title">{{ film2?.Title }}</h5>
-          <p class="card-text">{{ film2?.Plot }}</p>
+          <p *ngIf="film2?.Plot !== 'N/A'" class="card-text">{{ film2?.Plot }}</p>
 
           <ul class="list-group list-group-flush movie-data">
-            <li class="list-group-item">Rendező: {{ film2?.Director }}</li>
-            <li class="list-group-item">Színészek: {{ film2?.Actors }}</li>
+            <li *ngIf="film2?.Director !== 'N/A'" class="list-group-item">Rendező: {{ film2?.Director }}</li>
+            <li *ngIf="film2?.Actors !== 'N/A'" class="list-group-item">Színészek: {{ film2?.Actors }}</li>
           </ul>
 
           <h4 class="rating-text">Értékelés:</h4>
