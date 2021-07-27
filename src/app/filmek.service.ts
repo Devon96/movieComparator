@@ -22,8 +22,8 @@ export class FilmekService {
     return this.http.get<MovieDetails>(url);
   }
 
-  getMovies(search: string, pageNumber: number): Observable<Response> {
-    const url = `http://www.omdbapi.com?apikey=9118b9a9&s=${search}&page=${pageNumber}`;
+  getMovies(search: string, category: string, pageNumber: number): Observable<Response> {
+    const url = `http://www.omdbapi.com?apikey=9118b9a9&s=${search}&page=${pageNumber}&type=${category}`;
     return this.http.get<Response>(url);
   }
 

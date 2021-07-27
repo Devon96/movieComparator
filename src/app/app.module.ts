@@ -7,7 +7,7 @@ import { FilmekComponent } from './filmek/filmek.component';
 import { OsszehasonlitComponent } from './osszehasonlit/osszehasonlit.component';
 import {FilmekService} from './filmek.service';
 import {HttpClientModule} from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +15,13 @@ import {FormsModule} from '@angular/forms';
     FilmekComponent,
     OsszehasonlitComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        ReactiveFormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

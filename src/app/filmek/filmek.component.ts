@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {FilmekService} from '../filmek.service';
 import {RouterModule, Router} from '@angular/router';
 import {Movie, MovieDetails} from '../movie.model';
+import {FormBuilder, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-filmek',
@@ -12,10 +13,10 @@ export class FilmekComponent implements OnInit {
   film1: Movie;
   film2: Movie;
   filmek: Movie[];
-  search = '';
   pageNumber = 1;
+  form: FormGroup;
 
-  constructor(private filmekService: FilmekService, private router: Router) { }
+  constructor(private filmekService: FilmekService, private router: Router, private fb: FormBuilder) { }
 
   ngOnInit(): void {
     this.filmekService.getStartMovies().subscribe(data => {
@@ -23,6 +24,13 @@ export class FilmekComponent implements OnInit {
     });
     this.film1 = null;
     this.film2 = null;
+
+    this.form = this.fb.group({
+      title: '',
+      category: 'movie'
+    });
+
+    this.form.valueChanges.subscribe(data => this.getMovies(data));
   }
 
   kivalaszt(id: string) {
@@ -37,15 +45,10 @@ export class FilmekComponent implements OnInit {
 
   }
 
-  searchMovies(): void {
-    if (this.search.length > 0) {
-      this.filmekService.getMovies(this.search, 1).subscribe(data => {
-        this.filmek = data.Search;
-      });
-    } else if (this.search.length === 0) {
-      this.filmekService.getStartMovies().subscribe(data => {
-        this.filmek = data.Search;
-      });
-    }
+  getMovies(data) {
+    this.filmekService.getMovies(data.title, data.category, this.pageNumber).subscribe(movies => {
+      this.filmek = movies.Search;
+    });
   }
 }
+

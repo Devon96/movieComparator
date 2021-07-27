@@ -17,3 +17,6 @@ section{
 .item:hover{
   transform: scale(1.05);
 }
+.movie-form{
+  margin-bottom: 30px;
+}

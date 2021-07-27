@@ -1,10 +1,24 @@
 
   <section>
-    <div class="row">
-      <div class="form-group">
-        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="search" (keyup)="searchMovies()" placeholder="Keresés filmcím alapján">
+    <!--value: {{form.value | json}}-->
+    <form [formGroup]="form" >
+
+      <div class="row form-group input-group-lg">
+
+        <div class="col-6 input-group-lg">
+          <input formControlName="title" type="text" class="form-control form-l movie-form " id="exampleInputEmail1" placeholder="Keresés filmcím alapján">
+        </div>
+
+        <div class="col-6">
+          <select formControlName="category" class="form-select form-select-lg mb-3 movie-form col-6" aria-label=".form-select-lg example">
+            <option value="movie" selected>Filmek</option>
+            <option value="series">Sorozatok</option>
+          </select>
+        </div>
+
       </div>
-    </div>
+
+    </form>
   </section>
 
   <section>
