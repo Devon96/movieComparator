@@ -8,8 +8,6 @@ import {Movie, MovieDetails, Response} from './movie.model';
   providedIn: 'root'
 })
 export class FilmekService {
-  public film1: Film;
-  public film2: Film;
 
   constructor(private http: HttpClient) { }
 
