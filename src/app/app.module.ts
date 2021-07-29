@@ -5,9 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FilmekComponent } from './filmek/filmek.component';
 import { OsszehasonlitComponent } from './osszehasonlit/osszehasonlit.component';
-import {FilmekService} from './filmek.service';
+import {API_URL, FilmekService} from './filmek.service';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+export function getMovieApiUrl(): string {
+  return 'https://omdbapi.com';
+}
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
         FormsModule,
         ReactiveFormsModule
     ],
-  providers: [],
+  providers: [
+    FilmekService,
+
+    { provide: API_URL, useFactory: getMovieApiUrl }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

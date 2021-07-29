@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {FilmekService} from '../filmek.service';
-import {RouterModule, Router} from '@angular/router';
-import {Movie, MovieDetails} from '../movie.model';
-import {FormBuilder, FormGroup} from '@angular/forms';
+import { FilmekService } from '../filmek.service';
+import { Router } from '@angular/router';
+import { Movie } from '../movie.model';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-filmek',
